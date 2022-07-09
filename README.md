@@ -1,4 +1,4 @@
-# DraftGenerator-Gmail
+# About
 Create the Gmail template as draft from the spreadsheet 📧
 
 # How to Install
