@@ -1,5 +1,6 @@
 # About
-Create the Gmail template as draft from the spreadsheet 📧
+Create the Gmail template as draft from the [spreadsheet](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0) 📧  
+
 
 # How to Install
 1. Doogle Drive -> create "Google App Script".
