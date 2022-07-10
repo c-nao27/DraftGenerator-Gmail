@@ -6,7 +6,7 @@ function createDraft() {
   }
 
   ss.getRange(12,1).setValue("Executing…");
-  // Cell B1 -> (1,2) -> [0][1]
+  // Cell 1B == (1,2) == [0][1]
   const values = ss.getDataRange().getValues();
   const recipient = values[0][1];
   const options = {cc:values[1][1], bcc:values[2][1]};
