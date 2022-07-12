@@ -4,7 +4,7 @@ Language | [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 # About
 スプレッドシートからGmailの下書きを生成します！📧  
 日報など毎日の定型的なメールの作成に使えると思います。  
-スマホからの使用にも対応しています。
+使用時はセルの操作のみにすることで、スマホからの使用にも対応しています。
 
 
 # How to Install
