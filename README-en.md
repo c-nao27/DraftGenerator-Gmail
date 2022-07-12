@@ -1,3 +1,5 @@
+Language | [ja](https://github.com/c-nao27/gmail-draft-generator/blob/master/README.md)
+
 # About
 Create the Gmail template as draft from the Spreadsheet 📧  
 
