@@ -20,7 +20,7 @@ Language | [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 
 
 # Usage
-- セルA11のチェックボックスをTRUEにすると[スクリプト](https://github.com/c-nao27/gmail-draft-generator/blob/master/createDraft/createDraft.gs)が実行され、ログイン中のGmailに下書きが生成されます。
+- セルA11のチェックボックスをクリックして`TRUE`にすると[スクリプト](https://github.com/c-nao27/gmail-draft-generator/blob/master/createDraft/createDraft.gs)が実行され、ログイン中のGmailに下書きが生成されます。
 - 日付は`TEXT(TODAY(),"yyyy-mm-dd")`と書くと毎日更新されます。フォーマットは適当に変えてください。
 - 曜日も含めた翌営業日は`TEXT(WORKDAY(TODAY(),1,Holiday!A:A),"mm/dd（ddd）")`と書くと、土日祝日を除いた翌営業日が取得できます。
 
