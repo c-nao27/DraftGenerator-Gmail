@@ -23,6 +23,7 @@ It can also be used from a smartphone.
 
 # Usage
 - Click the checkbox in cell A11 and set it to `TRUE` to run [Script](https://github.com/c-nao27/gmail-draft-generator/blob/master/createDraft/createDraft.gs) and generate a [Draft](https://mail.google.com/mail/u/0/#drafts) in your logged in Gmail.
-- The date can be got by writing `TEXT(TODAY(), "yyyy year mm month dd day (ddd)")`. The format can be changed appropriately.
+- The date can be got by writing `TEXT(TODAY(), "yyyy year mm month dd day (ddd)")`. 　
+  The format can be changed appropriately.
 - The next business day can be obtained by writing `TEXT(WORKDAY(TODAY(),1,Holiday!A:A), "mm/dd")` to get the next business day excluding weekends and holidays.
 - If you wanna add more templates, duplicate the sheet and rewrite it.
