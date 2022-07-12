@@ -1,4 +1,3 @@
-##### Language
 [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/README-en)
 
 
