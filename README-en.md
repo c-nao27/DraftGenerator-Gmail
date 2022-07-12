@@ -2,7 +2,7 @@ Language | [JP](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 
 # About
 Create the Gmail template as draft from the Spreadsheet📧  
-I think it will be useful for creating routine emails.
+I think it will be useful for creating routine emails.  
 It can also be used from a smartphone.
 
 # How to Install
