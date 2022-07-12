@@ -24,4 +24,4 @@ Language | [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 
 - 日付は`TEXT(TODAY(),"yyyy年mm月dd日（ddd）")`と書くと取得できます。フォーマットは適当に変えてください。
 - 翌営業日は`TEXT(WORKDAY(TODAY(),1,Holiday!A:A),"mm/dd")`と書くと、土日祝日を除いた翌営業日が取得できます。
-- 新しくテンプレートを作りたい時は、1枚目のシートを複製して書き換えてください。
+- テンプレートを増やしたくなった時は、シートを複製して書き換えてください。
