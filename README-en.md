@@ -17,7 +17,7 @@ It can also be used from a smartphone.
 5. Click on Toolbar > Extensions -> App Script
 6. Sidebar > Triggers -> Add Trigger -> Select function to execute `createdraft` -> Select event type `On change` -> Save
 - if you wanna calculate the next business day :  
-   After running `listHolidays`, trigger it to run on a monthly basis using the event source `time-driven`, `month-based timer`.
+   After running `listHolidays`, trigger it to run on a monthly basis using the event source `time-driven`, `month-based timer`.  
    You need to change to your country's calendar
 
 
