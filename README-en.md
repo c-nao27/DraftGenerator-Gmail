@@ -18,7 +18,7 @@ It can also be used from a smartphone.
 6. Sidebar > Triggers -> Add Trigger -> Select function to execute `createdraft` -> Select event type `On change` -> Save
 - if you wanna calculate the next business day :  
    After running `listHolidays`, trigger it to run on a monthly basis using the event source `time-driven`, `month-based timer`.  
-   You need to change [this part] of the script(https://github.com/c-nao27/gmail-draft-generator/blob/5351f803b298373fc97a0e7d64dd8c2cfd68b9a3/createDraft/listHolidays#L51) to your country's calendar.
+   You need to change [this part](https://github.com/c-nao27/gmail-draft-generator/blob/5351f803b298373fc97a0e7d64dd8c2cfd68b9a3/createDraft/listHolidays#L51) of the script to your country's calendar.
 
 
 # Usage
