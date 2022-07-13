@@ -13,7 +13,7 @@ It can also be used from a smartphone.
    This script may be deleted after execution.  
    When the script is executed, [Spreadsheet](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
    and its associated [scripts](https://github.com/c-nao27/DraftGenerator-Gmail/tree/master/createDraft) are duplicated.
-4. After Reloading Google Drive and the `DraftGenerator` folder will be created, open `CreateDraft` in it.
+4. After Reloading Google Drive and the `CreateDraft` folder will be created, open `CreateDraft` in it.
 5. Click on Toolbar > Extensions -> App Script
 6. Sidebar > Triggers -> Add Trigger -> Select function to execute `createdraft` -> Select event type `On change` -> Save
 - if you wanna calculate the next business day :  
