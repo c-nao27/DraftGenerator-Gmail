@@ -10,7 +10,7 @@ Language | [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 # How to Install
 1. ダウンロード用のスクリプト[download.gs](https://script.google.com/d/15bk8jepCjzUYt5kU0sisspmS258Ctk_vLB1Gmv_xW1BHvqdRb-XiF0NW/edit?usp=sharing)を実行  
    権限などを求められたら都度許可してください。  
-   [Spreadsheet](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
+   Spreadsheet [CreateDraft](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
    とそれに紐付いたスクリプト [createDraft.gs](https://github.com/c-nao27/DraftGenerator-Gmail/tree/master/createDraft) が複製されます。  
 2. Google Drive を開くと`CreateDraft`フォルダが生成されているので、中の`CreateDraft`ファイルを開く。  
 3. ツールバー > 拡張機能 -> App Script をクリック
