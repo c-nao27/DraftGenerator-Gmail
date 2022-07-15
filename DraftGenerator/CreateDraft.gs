@@ -1,5 +1,5 @@
 function createDraft() {
-  // 対応：セル1B == range(1,2) == values[0][1]
+  // Cell 1B == range(1,2) == values[0][1]
 
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   const checkBox = sheet.getRange(11,1);
@@ -20,7 +20,7 @@ function createDraft() {
   const subject = values[3][1];
   let body = "";
 
-  // 本文の行数分ループ
+  // Loop for lines of body
   for (let i = 4; i < sheet.getLastRow(); i++) {
     body += (values[i][1] != "") ? values[i][1] : "";
     body += "\n";
