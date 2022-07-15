@@ -9,7 +9,7 @@ Language | [EN](https://github.com/c-nao27/gmail-draft-generator/blob/master/REA
 
 # How to Install
 1. Google Drive -> 新規 -> その他-> Google Apps Script を作成
-2. [download.gs](https://raw.githubusercontent.com/c-nao27/gmail-draft-generator/master/download.gs) をコピーして全文ペースト  
+2. [download.gs](https://github.com/c-nao27/gmail-draft-generator/blob/master/download.gs) をコピーして全文ペースト  
 3. 実行  
    [Spreadsheet](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
    とそれに紐付いた [スクリプト](https://github.com/c-nao27/DraftGenerator-Gmail/tree/master/createDraft) が複製されます。  
