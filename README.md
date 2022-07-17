@@ -2,7 +2,7 @@
 スプレッドシートからGmailの下書きを生成します📧  
 毎日の定型的なメールの作成に使えると思います。日報とか  
 使用時はセルの操作のみなので、スマホからも使用できます。  
-使用ライブラリ：[Duplicate](https://github.com/c-nao27/duplicate-file)
+使用ライブラリ：[Duplicate](https://github.com/c-nao27/gas-duplicate)
 
 
 # How to Install
