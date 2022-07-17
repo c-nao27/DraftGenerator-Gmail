@@ -8,7 +8,7 @@
 1. ダウンロード用のスクリプト[Download.gs](https://script.google.com/d/15bk8jepCjzUYt5kU0sisspmS258Ctk_vLB1Gmv_xW1BHvqdRb-XiF0NW/edit?usp=sharing)を実行  
    権限などを求められたら都度許可してください。  
    Spreadsheet [CreateDraft](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
-   とそれに紐付いたスクリプト[CreateDraft.gs](https://github.com/c-nao27/gmail-draft-generator/blob/master/DraftGenerator/CreateDraft.gs)が複製されます。  
+   とそれに紐付いたスクリプト[CreateDraft.gs](https://github.com/c-nao27/gmail-draft-generator/blob/master/DraftGenerator/CreateDraft.gs), [ListHoliday.gs](https://github.com/c-nao27/gmail-draft-generator/blob/master/DraftGenerator/ListHoliday.gs)が複製されます。  
 2. `CreateDraft`フォルダの中の`CreateDraft`ファイルを開く。  
 3. ツールバー > 拡張機能 -> App Script をクリック
 4. サイドバー > トリガー -> トリガーを追加 -> 実行する関数を選択: `createDraft` -> イベントの種類を選択: `変更時` -> 保存
