@@ -9,9 +9,9 @@
    権限などを求められたら都度許可してください。  
    Spreadsheet [CreateDraft](https://docs.google.com/spreadsheets/d/11jlhA_Tim8s6njnWUwJet0un1q5nkWzBKan9579I7m4/edit#gid=0)
    とそれに紐付いたスクリプト[CreateDraft.gs](https://github.com/c-nao27/gmail-draft-generator/blob/master/DraftGenerator/CreateDraft.gs)が複製されます。  
-2. Google Drive を開くと`CreateDraft`フォルダが生成されているので、中の`CreateDraft`ファイルを開く。  
+2. `CreateDraft`フォルダの中の`CreateDraft`ファイルを開く。  
 3. ツールバー > 拡張機能 -> App Script をクリック
-4. サイドバー > トリガー -> トリガーを追加 -> 実行する関数を選択 `createDraft` -> イベントの種類を選択 `変更時` -> 保存
+4. サイドバー > トリガー -> トリガーを追加 -> 実行する関数を選択: `createDraft` -> イベントの種類を選択: `変更時` -> 保存
  - 翌営業日の計算をしたい場合、`listHolidays`を実行後、イベントのソース`時間主導型`, `月ベースのタイマー`で月単位で実行されるようにトリガーを設定してください。
 
 
