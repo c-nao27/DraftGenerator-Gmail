@@ -2,7 +2,6 @@
 スプレッドシートからGmailの下書きを生成します📧  
 毎日の定型的なメールの作成に使えると思います。日報とか  
 使用時はセルの操作のみなので、スマホからも使用できます。  
-使用ライブラリ：[Duplicate](https://github.com/c-nao27/gas-duplicate)
 
 
 # How to Install
@@ -24,3 +23,6 @@
 - 翌営業日は`TEXT(WORKDAY(TODAY(),1,Holiday!A:A),"mm/dd（ddd）")`と書くと、土日祝日を除いた翌営業日が取得できます。
 - テンプレートを増やしたくなった時は、シートを複製して書き換えてください。
 
+
+### 使用ライブラリ
+- [Duplicate](https://github.com/c-nao27/gas-duplicate)
