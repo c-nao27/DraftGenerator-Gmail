@@ -5,6 +5,11 @@ function createDraft() {
   const checkBox = sheet.getRange(11,1);
   const status = sheet.getRange(12,1);
   const errMsg = sheet.getRange(13,1);
+  const auto = sheet.getRange(15,1);
+
+  if (auto.getValues() == "true") {
+    checkBox.setValue("true");
+  }
 
   if (checkBox.getValues() == "false") {
     console.log("実行以外の変更");
@@ -13,6 +18,7 @@ function createDraft() {
     SpreadsheetApp.flush();
     return;
   }
+  
   status.setValue("実行中…");
   const values = sheet.getDataRange().getValues();
   const recipient = values[0][1];
